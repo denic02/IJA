@@ -1,0 +1,153 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url(pozadina2.jpg);
+    background-size: cover;
+}
+header{
+	width: 100%;
+	text-align: center;
+}
+header img{
+	height: 150px;
+	margin-left: 80px;
+	float: left;
+}
+nav{
+
+ margin-right: 200px;
+ margin-top: 25px;
+}
+.a{
+	text-decoration: none;
+ color: white;
+ font-size: 65px;
+}
+
+.link2{
+
+ margin-left: 60px;
+}
+
+.link3{
+	margin-left: 60px;
+}
+
+.a:hover{
+	color:#FFD700;
+}
+
+.a:active{
+   color:orange;
+}
+ul{
+ list-style: none;
+}
+
+li{
+	display: inline;
+}
+
+.naslov{
+	margin-top: 120px;
+	color: orange;
+	text-align: center;
+	font-size: 70px;
+}
+
+h2{
+	text-align: center;
+	color: orange;
+	font-size: 40px;
+	text-decoration: underline;
+}
+.butdiv{
+	width: 100%;
+	text-align: center;
+}
+button{
+	text-align: center;
+	background:orange;
+	color: white;
+	padding:10px 30px;
+	border: 2px solid orange;
+	font-size: 30px;
+	font-weight: 700;
+	cursor:pointer;
+}
+
+button:hover{
+	animation:dugme 1s;
+}
+
+.onama{
+	
+	color: orange;
+	margin:0;
+}
+
+.onamadiv{
+	width: 70%;
+	
+	text-align: center;
+	margin:auto;
+	margin-top: 90px;
+	font-size: 30px;
+}
+
+p{
+	color:white;
+	font-size: 20px;
+	width: 70%;
+    margin:auto;
+ 	text-align: center;
+	display: block;
+	margin-top: 30px;
+	font-family: 'monospace', Lucida Console;
+}
+
+span{
+	color:black;
+	font-weight: 700;
+	font-size: 30px;
+}
+.formdiv{
+	width: 100%;
+	text-align: center;
+}
+
+.form1{
+	width: 300px;
+	height: 40px;
+	background:transparent;
+	border:none;
+	outline: none;
+	border-bottom:3px solid orange;
+	
+}
+::placeholder{
+	color:white;
+}
+.dugme1{
+	margin-top: 20px;
+	background-color: orange;
+	border:1px solid white;
+	font-size: 25px;
+	font-weight: 700;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+.dugme1:hover{
+animation: dugme 0.5s ;
+}
+
+@keyframes dugme{
+
+0%{
+  background:orange;
+}
+100%{
+	background-color: #D2691E;
+}
+}
